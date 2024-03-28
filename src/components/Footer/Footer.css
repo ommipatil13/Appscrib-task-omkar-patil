@@ -1,0 +1,231 @@
+.footer {
+    background-color: black;
+    color: white;
+    margin-top: 40px;
+    padding: 60px 120px;
+}
+
+.footer_top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_top .footer_left {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer_top .footer_left .input_button {
+    display: flex;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.footer_top .footer_left .input_button input {
+    padding: 14px 84px;
+}
+
+.footer_top .footer_left .input_button input::placeholder {
+    text-align: left;
+    color: gray;
+}
+
+.footer_top .footer_left .input_button button {
+    background-color: black;
+    color: gray;
+    padding: 5px 40px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.footer_top .footer_right {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.footer_top .footer_right h3 {
+    font-size: 20px;
+}
+
+.footer_top .footer_right a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.footer_top .footer_right h6 {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+}
+
+.footer_top .footer_right p {
+    font-size: 12px;
+}
+
+.footer_down {
+    border-top: 1px solid white;
+    padding: 40px 0;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_down .footer_list_one p {
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 24px;
+}
+
+.footer_down .footer_list_one ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.footer_down .footer_list_one ul li {
+    list-style: none;
+    font-size: 15px;
+    font-weight: 400;
+
+}
+
+.footer_down .footer_list_two p {
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 24px;
+
+}
+
+.footer_down .footer_list_two ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.footer_down .footer_list_two ul li {
+    list-style: none;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.footer_list_three {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* .footer_list_three h5 {
+        font-size: 24px;
+        font-weight: 700;
+    } */
+
+.footer_list_three p {
+    margin-top: 25px;
+}
+
+/* .footer_list_three .footer_icon {
+    display: flex;
+    gap: 10px;
+} */
+
+/* .footer_list_three .footer_logo {
+    display: flex;
+    gap: 15px;
+} */
+
+.footer_bottom p {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+@media (max-width:600px) {
+    .footer {
+        /* display: grid; */
+        padding: 16px;
+    }
+
+    .footer_top {
+        display: grid;
+    }
+
+    .footer_left {
+        width: 100%;
+        border-bottom: 1px solid #f5f5f5;
+        padding-bottom: 20px;
+        margin-bottom: 16px;
+    }
+
+    .footer_top .footer_left .input_button input {
+        padding: 14px 16px;
+    }
+
+    .footer_right_email {
+        padding-bottom: 30px;
+        border-bottom: 1px solid #f5f5f5;
+        margin-bottom: 16px;
+    }
+
+    .currencyPara {
+        display: none;
+    }
+
+    .footer_list_one ul li {
+        display: none;
+    }
+
+    .footer_list_two ul li {
+        display: none;
+    }
+
+    .footer_down {
+        flex-direction: column;
+    }
+
+    .footer_down>div {
+        padding-bottom: 20px;
+        border-bottom: 1px solid #f5f5f5;
+        margin-bottom: 50px;
+    }
+
+
+    .footer_logo img {
+        width: 100%;
+    }
+
+    .footer_icon {
+        border-bottom: 1px solid #f5f5f5;
+        padding: 10px;
+        margin-top: -10px;
+    }
+
+    .footer_bottom p {
+        margin-top: -20px;
+        margin-bottom: 20px;
+    }
+
+    .footer_list_one {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .footer_list_one img {
+        filter: invert();
+        transform: rotate(180deg);
+    }
+
+    .footer_list_two {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .footer_list_two img {
+        filter: invert();
+        transform: rotate(180deg);
+    }
+}

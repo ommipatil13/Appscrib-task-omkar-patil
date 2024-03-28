@@ -1,0 +1,40 @@
+.hero {
+    width: 721px;
+    text-align: center;
+    margin: 5rem auto;
+    color: #252020;
+}
+
+.hero h1 {
+    font-size: 60px;
+    line-height: 72px;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+@media (max-width:600px) {
+    .hero {
+        margin: auto;
+        width: 100%;
+    }
+
+    .hero h1 {
+        font-size: 24px;
+        font-weight: 400;
+    }
+
+    .hero p {
+
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22px;
+        width: 55%;
+        margin: auto;
+    }
+}

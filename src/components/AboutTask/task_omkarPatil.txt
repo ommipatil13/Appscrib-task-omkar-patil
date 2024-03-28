@@ -1,0 +1,5 @@
+1. as per given following task i have implemented functionalities. 
+2. created mobile responsive.
+3. i have add functionality like by clicking filters it will show hide filter.
+4 and also developed category filter where you can filter out things.
+5. used fetch to call api and render it display to ui.
